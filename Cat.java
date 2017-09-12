@@ -4,6 +4,10 @@ public class Cat
 	private int a;
 	private String o;
 	
+	public Cat(String name)
+	{
+		n = name;
+	}
 	public String getName()
 	{
 		return n;

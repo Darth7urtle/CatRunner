@@ -2,17 +2,22 @@ import java.awt.Color;
 
 public class Lion extends Cat
 {
-	private Color mane;
+	private Color m;
 	
+	public Lion(String name, Color mane)
+	{
+		super(name);
+		m = mane;
+	}
 	public Color getManeColor()
 	{
-		return mane;
+		return m;
 	}
 	
 	public Color setManeColor(Color newColor)
 	{
-		mane = newColor;
-		return mane;
+		m = newColor;
+		return m;
 	}
 	
 	public void roar()
